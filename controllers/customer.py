@@ -29,7 +29,7 @@ def show_customers():
         else:
             return jsonify({'message ': 'There are not existed customers !'}),404
     else:
-        return jsonify({'message': 'Hit this request with http post not get method !'}),200
+        return jsonify({'message': 'Hit this request with http get not post method !'}),200
 
 
 @customer.route('/add', methods=['GET', 'POST'])
