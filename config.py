@@ -1,4 +1,3 @@
-import os 
 DEBUG = True
 SECRET_KEY= 'we-art-@#$%'
 DB_USER='postgres'
